@@ -1,0 +1,407 @@
+
+body{
+    background-image: url(images/wp2831917.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+   /* 1st simplecart */
+
+   #card-radius{
+ border-style: none;
+    border-radius: 15px;
+    width: 300px;
+   }
+   .card img{
+    border-radius: 15px 15px 0px 0px ;
+   }
+  .card-title{
+    text-align:center ;
+  }
+.card-text{
+    text-align: center;
+}  
+.card-body button{
+
+    background-color: rgb(206, 83, 12);
+    margin-left: 75px;
+    border-radius: 0px;
+    border-style: none;
+}
+.card-body{
+    margin-top: 5px;
+    border-radius: 0px 0px 15px 15px;
+}
+.card:hover .card-body{
+    background-color:  rgb(206, 83, 12);
+}
+.card:hover button{
+    background-color: rgb(0, 0, 0);
+}
+.card:hover .card-title{
+    color: white;
+}
+.card:hover .card-text{
+    color: white;
+ 
+}
+
+/* img-card */
+
+#img-card{
+    width: 500px;
+    height: 333px;
+    border-radius: 15px;
+    border-style: none;
+    
+}
+#img-card img{
+    height:333px;
+    background-color: red;
+    border-radius: 15px;
+}
+#img-card .card-img-overlay .card-title{
+    width: fit-content;
+    margin: 0px;
+    opacity: 100%;
+
+}
+#img-card .card-img-overlay .card-text{
+    width: fit-content;
+    margin: 0px;
+    margin-top: 10px;
+    opacity: 100%;
+
+}
+#img-card .card-img-overlay hr{
+    margin-top: 0px;
+    width: 10px;
+    border-top: 2px solid #000;
+    opacity: 100%;
+}
+#img-card:hover .card-img-overlay hr{
+    transition-property: all;
+    transition-duration:.5s ;
+width: 75px;
+border-top: 2px solid rgb(226, 102, 0);
+}
+#img-card:hover .card-text{
+    color: rgb(226, 102, 0);
+    transition-property: all;
+    transition-duration:.5s ;
+}
+#img-card:hover .card-title{
+    color: black;
+}
+
+
+/* card whatsapp  */
+
+#card-whatsapp{
+    width: 300px;
+    border-style: none;
+    border-radius: 15px;
+}
+#card-whatsapp #img-wcard{
+    border-style: none;
+}
+#card-whatsapp #img-wcard img{
+    border-radius: 15px 15px 40px 40px ;
+    border-style: none;
+    margin-bottom: 5px;    
+    padding-bottom: 2px;
+}
+#card-whatsapp .card-body{
+    margin-top: 0px;
+
+}
+#card-whatsapp .card-body .card-title{
+    text-align: center;
+}
+#card-whatsapp .card-body .card-text{
+    text-align: center;
+}
+#card-whatsapp .card-body .btn{
+    margin-left: 75px;
+    background-color: orange;
+    border-style: none;
+}
+#card-whatsapp:hover .card-body{
+    background-color: orange;
+}
+#card-whatsapp:hover .card-body .btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#card-whatsapp:hover .card-body .card-title{
+
+    color: rgb(255, 255, 255);
+}
+#card-whatsapp:hover .card-body .card-text{
+color: rgb(255, 255, 255);
+}
+#card-whatsapp .empty-div{
+    border-radius: 0px 0px 100px 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 250px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+#card-whatsapp #whatsapp-btn i{
+    border: 2px solid orange;
+    
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 223, 0);
+}
+#card-whatsapp #whatsapp-btn:hover i{
+    background-color: rgb(185, 121, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition-property: all;
+    transition-duration: .1s;
+    width: 60px;
+    height: 60px;
+    padding-left: 13px;
+    padding-top: 9px;
+    font-size: 35px;
+
+}
+
+/* slider 1 */
+
+#carouselExampleCaptions{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+#carouselExampleCaptions img{
+    width: 400px;
+    height: 300px;
+}
+#carouselExampleCaptions #top_button-mgf{
+    background-color: orange;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+}
+#carouselExampleCaptions .card-img-overlay1{
+    position: relative;
+    margin-bottom: 180px;
+    margin-left: 260px;
+}
+#carouselExampleCaptions .carousel-control-next{
+    height: 40px;
+    width: 30px;
+    margin-top: 240px;
+    margin-right: 30px;
+    background-color: orange;
+    opacity: 100%;
+}
+#carouselExampleCaptions .carousel-control-prev{
+    margin-top: 240px;
+    margin-left: 300px;
+    background-color: orange;
+    height: 40px;
+    width: 30px;
+    opacity: 100%;
+    
+}
+#carouselExampleCaptions #top_button-mgf:hover{
+    background-color: white;
+    border: 2px solid orange;
+}
+#carouselExampleCaptions #top_button-mgf i{
+    padding-top: 15px;
+    color: white;
+}
+#carouselExampleCaptions #top_button-mgf:hover i{
+    color: orange;
+}
+#carouselExampleCaptions #btm-poster{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  
+
+}
+#carouselExampleCaptions .card-img-overlay{ 
+    margin-top: 150px;
+    margin-left: -90px;
+    width: 200px;
+    height: 200px;
+}
+
+#carouselExampleCaptions #btm-poster .fa-truck{
+    font-size: 30px;
+    color: orange;
+    padding-top: 30px;
+    position: relative;
+}
+#carouselExampleCaptions #btm-poster  a .btn-primary {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-style: none;
+
+}
+#carouselExampleCaptions #btm-poster  a{
+    text-decoration: none;
+    color: rgb(156, 76, 0);
+    font-style: italic;
+}
+
+
+
+ /* slider 2  */
+#carouselExampleDark{
+    width: 400px;
+    height: 300px;
+}
+#carouselExampleDark img{
+    width: 400px;
+    height: 300px;
+}
+#carouselExampleDark .carousel-control-prev{
+margin-top: 210px;
+margin-left: 300px;
+background-color: orange;
+height: 40px;
+width: 30px;
+opacity: 100%;
+}
+#carouselExampleDark .carousel-control-next{
+    margin-top: 210px;
+    background-color: orange;
+    height: 40px;
+    width: 30px;
+    margin-right: 30px;
+    opacity: 100%;
+}
+
+
+/* slider 3  big slider */
+
+#carouselExampleControls {
+    height: 450px;
+    width: 800px;
+    
+}
+#carouselExampleControls img{
+    
+    height: 450px;
+    width: 800px;
+}
+#carouselExampleControls .carousel-control-prev{
+    margin-top: 380px;
+    margin-left: 700px;
+    background-color: orange;
+    height: 40px;
+    width: 30px;
+    opacity: 100%;
+    }
+#carouselExampleControls .carousel-control-next{
+        margin-top: 380px;
+        background-color: orange;
+        height: 40px;
+        width: 30px;
+        margin-right: 30px;
+        opacity: 100%;
+    }
+#carouselExampleControls .card-img-overlay{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 170px;
+    margin-top: 280px;
+    box-shadow: 15px 1px 30px 15px white , 1px -1px 30px 15px white;
+    border-style: none;
+    opacity: 80%;
+
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now{
+    margin-left: 45px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now span{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now .btn-danger{
+    background-color: orange;
+    border-style: none;
+    border-radius: 0px;
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now .btn-danger:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+ /* overlay img  */
+ #image-card {
+    height: 35vh;
+    width: 30vw;
+    
+    overflow: hidden;
+    
+    border-style: none;
+    border-radius: 0%;
+    position: relative;
+}
+#image-card img{
+    height: 35vh;
+    width: 30vw;
+    border-style: none;
+    border-radius: 0%;
+    position: relative;
+}
+#image-card .card-img-overlay{
+    background-color: white;
+    height: 70%;
+    width: 45%;
+    border-radius: 50%;
+    top: 50%;
+    left: -10%;
+    position: absolute;
+
+
+  
+}
+#image-card .card-img-overlay .btn{
+background-color: orange;
+width: max-content;
+height: 20px;
+padding: 4%;
+font-size:xx-small;
+border-style: none;
+padding-top: 2%;
+position: relative;
+
+
+}
+#image-card .card-img-overlay #btm-poster{
+    padding-left: 5%;
+
+}
+#image-card .card-img-overlay #btm-poster{
+    color: rgb(218, 75, 75);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+}
+#image-card .card-img-overlay #btm-poster i{
+color: orange;
+padding-left: 5%;
+}

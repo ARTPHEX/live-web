@@ -1,0 +1,496 @@
+.container-fluid{
+    padding: 0px 0px!important;
+    margin: 0px 0px!important;
+}
+#nav-tabs-flex{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* position: static; */
+    width: 100vw;
+    margin: 0px;
+}
+
+#nav-tabs-flex #logo img{
+    width: 120px;
+    height: 60px;
+
+}
+#top-humbar i{
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 5px;
+    /* font-size: 25px; */
+    color: orange;
+    border-style: none;
+  
+}
+#bottom-humbar li:first-child{
+    display: none;
+}
+#bottom-humbar{
+ /* position: fixed; */
+    padding-left: 15px;
+}
+#bottom-humbar ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 95vh;
+    margin-right: 0px;
+    /* width: 0vw; */
+    list-style: none;
+    padding: 10px;
+    position: fixed;
+    /* background-color:red; */
+
+}
+#nav-tabs-flex #nav-icons i{
+    color: orange;
+    /* padding-top: 15px; */
+    padding-left: 10px;
+}
+#bottom-humbar ul li i{
+    /* font-size: 25px; */
+    padding-bottom: 15px;
+    color: orange;
+}
+#nav-tabs-flex #nav-icons{
+    margin-left: 0%;
+}
+#navline{
+    /* width: 100%; */
+
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+#navline{
+    display: block;
+    border: 1px solid orange;
+    /* color: orange; */
+    opacity: 100%;
+    margin: 0px;
+    /* width: 100%; */
+}
+}
+@media screen and (max-width: 1024px) {
+   
+    #bottom-humbar ul  {
+display: flex;
+flex-direction: row;
+width: 100vw;
+height: 50px;
+justify-content: space-between;
+position: relative;
+margin: 0px;
+align-items:center;
+    }
+
+    #bottom-humbar ul li{
+        display: flex;
+
+    }
+    #bottom-humbar ul li i{
+        padding-left: 15px;
+    }
+    #bottom-humbar li:first-child{
+        display: block;
+
+    }
+    #bottom-humbar li:first-child .btn{
+        padding: 0px;
+    }
+
+    #top-humbar{
+        display: none;
+    }
+    #nav-tabs-flex .top-nav-tabs{
+        display: none;
+    }
+}
+
+
+
+
+
+/* body content  */
+#mincontentlgscreen{
+    padding-left: 5vw;
+}
+
+
+
+
+
+/* big img slider  */
+
+
+
+#carouselExampleControls {
+    height: 610px;
+    width: 55vw;
+}
+
+#carouselExampleControls img{
+    
+    height: 610px;
+    width: 55vw;
+}
+#carouselExampleControls .carousel-control-prev{
+position: relative;
+background-color: orange;
+width: 35px;
+height: 35px;
+opacity: 100%;
+margin-left: 85%;
+margin-top: -60px;
+
+}
+#carouselExampleControls .carousel-control-next{
+ position: relative;
+ background-color: orange;
+ opacity: 100%;
+ width: 35px;
+height: 35px;
+margin-left: 92%;
+margin-top: -35px;
+    }
+#carouselExampleControls .card-img-overlay{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 170px;
+    margin-top: -170px;
+    box-shadow: 15px 1px 30px 15px white , 1px -1px 30px 15px white;
+    border-style: none;
+    opacity: 80%;
+    position: relative;
+
+
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now{
+    margin-left: 45px;
+    text-transform: uppercase;
+    font-size: 35px;
+    
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now span{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now .btn-danger{
+    background-color: orange;
+    border-style: none;
+    border-radius: 0px;
+}
+#carouselExampleControls .card-img-overlay #btm-shop-now .btn-danger:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+ /* overlay img  only img not slider *//* overlay img  */
+
+
+
+
+ #image-card {
+    height: 280px;
+    width: 30vw;
+    overflow: hidden;
+    border-style: none;
+    border-radius: 0%;
+    margin-left: 5vw;
+}
+#image-card img{
+    width: 30vw;
+    height: inherit;
+    border-style: none;
+    border-radius: 0%;
+}
+#image-card .card-img-overlay{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ margin-top: -45%;
+ margin-left: -30px;
+ position: relative;
+
+}
+
+#image-card .card-img-overlay #btm-poster{
+    padding-left: 40px;
+margin-top: 10px;
+font-size: small;
+color: rgb(0, 0, 0);
+text-decoration: underline;
+text-transform: uppercase;
+}
+#image-card .card-img-overlay .btn{
+    background-color: orange;
+    border-style: none;
+    height: 30px;
+    font-size: xx-small;
+    margin-top: 10px;
+    
+    
+    }
+#image-card .card-img-overlay #btm-poster i{
+    color: orange;
+    padding-left: 10px;
+}
+
+
+
+
+/* slider 1  same delivery*/
+
+#carouselExampleCaptions{
+    height: 280px;
+    width: 30vw;
+    margin-left: 5vw;
+    margin-top: 50px;
+}
+#carouselExampleCaptions img{
+    height:280px ;
+    width: 30vw;
+
+
+}
+#carouselExampleCaptions #top_button-mgf{
+    background-color: orange;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+
+
+
+}
+#carouselExampleCaptions .card-img-overlay1{
+
+    margin-left: 95%;
+    z-index: 1;
+    position: relative;
+}
+#carouselExampleCaptions #next-control button{
+background-color: orange;
+height: 35px;
+width: 35px;
+overflow: hidden;
+margin-left: 85%;
+position: relative;
+opacity: 100%;
+padding: 0%;
+margin-top: -35px;
+}
+#carouselExampleCaptions #prev-control button{
+    background-color: orange;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    margin-left: 72%;
+    position: relative;
+    opacity: 100%;
+    padding: 0%;
+    margin-top: -45px;
+
+
+
+    
+}
+#carouselExampleCaptions #top_button-mgf:hover{
+    background-color: white;
+    border: 2px solid orange;
+}
+#carouselExampleCaptions #top_button-mgf i{
+    padding-top: 15px;
+    color: white;
+}
+#carouselExampleCaptions #top_button-mgf:hover i{
+    color: orange;
+}
+#carouselExampleCaptions #btm-poster{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 70px;
+  
+
+}
+#carouselExampleCaptions .card-img-overlay{ 
+    margin-left: -90px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    font-size: small;
+
+}
+
+#carouselExampleCaptions #btm-poster .fa-truck{
+    font-size: 30px;
+    color: orange;
+    padding-top: 30px;
+    position: relative;
+}
+#carouselExampleCaptions #btm-poster  a .btn-primary {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-style: none;
+
+
+}
+#carouselExampleCaptions #btm-poster  a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+/* @media screen and (max-width: 1024px) {
+#image-card .card-img-overlay{
+margin-top: -40%;
+}} */
+
+
+@media screen and (max-width: 768px) {
+    #carouselExampleControls {
+        height: 410px;
+        width: 100vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+margin-bottom: 50px;        
+    }
+    
+    #carouselExampleControls img{
+        
+        height: 410px;
+        width: 100%;
+    }
+    #image-card{
+        width: 40vw;
+        height: 200px;
+       
+margin: 0px;
+
+    }
+    #image-card img{
+        width: 100%;
+        height: 200px;
+   
+    }
+    #carouselExampleCaptions {
+        width:40vw;
+        height: 200px;
+     
+        margin: 0px;
+    }
+    #carouselExampleCaptions img{
+        width: 100%;
+        height: 200px;
+    }
+    #mincontentlgscreen{
+        padding: 0vw;
+    }
+    #cardflexmd{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    #image-card .card-img-overlay{
+        /* overflow of img slide  */
+        margin-top: -145px;
+    }
+    }
+
+
+
+    /* at 425px  */
+
+    @media screen and (max-width: 425px) {
+
+        #cardflexmd{
+            display: block;
+        }
+        #carouselExampleControls{
+            width: 100vw;
+            height: 350px;
+            margin-bottom: 0px;
+        }
+        #carouselExampleControls img{
+            width: 100vw;
+            height: 350px;
+        }
+
+        #carouselExampleControls .card-img-overlay{
+            height: 100px;
+            width: 70%;
+            opacity: 75%;
+           
+        }
+        #carouselExampleControls .card-img-overlay #btm-shop-now{
+            font-size:16px ; 
+        }
+        #carouselExampleControls .card-img-overlay #btm-shop-now span{
+font-size: 14px;
+        }
+        #carouselExampleControls .card-img-overlay #btm-shop-now .btn-danger{
+            height: 35px;
+            width: auto;
+        }
+        #carouselExampleControls .carousel-control-prev{
+            margin-left: 73%;
+        }
+        #carouselExampleControls .carousel-control-next{
+            margin-left:87% ;
+        }
+    #imgage-card{
+        width: 100vw;
+        /* display: inline; */
+        
+    }
+ 
+    #image-card{
+        width: 90vw;
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 10vw;
+
+    }
+    #image-card img{
+        width: 100vw;
+        height: 200px;
+    
+    }
+    #carouselExampleCaptions{
+        width: 100vw;
+        height: 200px;
+        /* padding-left: 15vw; */
+        padding-right: 10vw;
+        margin-top: 20px;
+        margin-left: 10vw;
+        /* margin-right: 10vw; */
+    }
+    #carouselExampleCaptions img{
+        width: 100vw;
+        height: 200px;
+     
+    }
+    #carouselExampleCaptions .card-img-overlay{
+        /* margin-top: 170%; */
+        margin-left: 90px;
+        z-index: 1;
+        background-color: red;
+        height: 30px;
+        width: 50px;
+        display: inline-block;
+    }
+}

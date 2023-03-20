@@ -1,0 +1,81 @@
+#nav-tabs-flex #logo img{
+    width: 120px;
+    height: 50px;
+
+}
+#nav-tabs-flex{
+    display: flex;
+    justify-content: space-between;
+    /* position: static; */
+}
+#top-humbar i{
+    padding-left: 10px;
+    padding-top: 5px;
+    /* font-size: 25px; */
+    color: orange;
+    border-style: none;
+  
+}
+#bottom-humbar li:first-child{
+    display: none;
+}
+#bottom-humbar{
+ /* position: fixed; */
+    padding: 0px;
+}
+#bottom-humbar ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: 60px;
+    list-style: none;
+    padding: 20px;
+    /* position: fixed; */
+
+}
+#nav-tabs-flex #nav-icons i{
+    color: orange;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#bottom-humbar ul li i{
+    /* font-size: 25px; */
+    padding-bottom: 15px;
+    color: orange;
+}
+#nav-tabs-flex #nav-icons{
+    margin-left: 0%;
+}
+@media screen and (max-width: 1024px) {
+   
+    #bottom-humbar ul  {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50px;
+justify-content: space-between;
+    }
+
+    #bottom-humbar ul li{
+        display: flex;
+
+    }
+    #bottom-humbar ul li i{
+        padding-left: 15px;
+    }
+    #bottom-humbar li:first-child{
+        display: block;
+
+    }
+    #bottom-humbar li:first-child .btn{
+        padding: 0px;
+    }
+
+    #top-humbar{
+        display: none;
+    }
+    #nav-tabs-flex .top-nav-tabs{
+        display: none;
+    }
+}
